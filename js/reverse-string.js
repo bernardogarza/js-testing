@@ -1,7 +1,5 @@
 let reverseString = (string) => {
-    for (let i = string.length; i === 0; i--){
-        
-    }
+  return string.split('').reverse().join('');
 }
 
 export { reverseString }
