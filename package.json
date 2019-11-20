@@ -1,0 +1,25 @@
+{
+  "name": "js-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bernardogarza/js-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bernardogarza/js-testing/issues"
+  },
+  "homepage": "https://github.com/bernardogarza/js-testing#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.7.1",
+    "jest": "^24.9.0"
+  }
+}
