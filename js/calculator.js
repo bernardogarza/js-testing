@@ -1,21 +1,17 @@
-let calculator = ( () => {
-  let add = (a, b) => {
-    return a + b;
-  }
+/* eslint-disable import/prefer-default-export */
 
-  let substract = (a, b) => {
-    return a - b;
-  }
+const calculator = (() => {
+  const add = (a, b) => a + b;
 
-  let multiply = (a, b) => {
-    return a * b;
-  }
+  const substract = (a, b) => a - b;
 
-  let divide = (a, b) => {
-    return a / b;
-  }
+  const multiply = (a, b) => a * b;
 
-  return { add, substract, multiply, divide }
+  const divide = (a, b) => a / b;
+
+  return {
+    add, substract, multiply, divide,
+  };
 })();
 
 export { calculator };

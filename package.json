@@ -20,6 +20,10 @@
   "homepage": "https://github.com/bernardogarza/js-testing#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.7.1",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
     "jest": "^24.9.0"
   }
 }

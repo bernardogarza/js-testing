@@ -1,7 +1,8 @@
+/* eslint-disable import/prefer-default-export */
 
-let capitalize = (string) => {;
-    let strUpper = string.charAt(0).toUpperCase() + string.substring(1);
-    return strUpper;
-}
+const capitalize = (string) => {
+  const strUpper = string.charAt(0).toUpperCase() + string.substring(1);
+  return strUpper;
+};
 
-export { capitalize }
+export { capitalize };

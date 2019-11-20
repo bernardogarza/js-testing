@@ -1,5 +1,5 @@
-let reverseString = (string) => {
-  return string.split('').reverse().join('');
-}
+/* eslint-disable import/prefer-default-export */
 
-export { reverseString }
+const reverseString = (string) => string.split('').reverse().join('');
+
+export { reverseString };
